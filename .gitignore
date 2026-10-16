@@ -1,0 +1,17 @@
+# dependencies and build output
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# secrets - never commit these (use .env.example as the template)
+.env
+.env.local
+.env.*.local
+
+# files uploaded by users (product images, delivery photos)
+/uploads/
+
+# logs and OS files
+*.log
+.DS_Store
